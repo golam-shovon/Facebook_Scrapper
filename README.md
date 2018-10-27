@@ -1,4 +1,4 @@
-# Facebook_Scrap
+# Facebook Scraper
 Facebook Group Scrapper
 A bot which scrapes posts from facebook public group 
 
