@@ -21,7 +21,7 @@ for i in range(1, 10000):
         soup=BeautifulSoup(requests.get(elem.get_attribute("href")).content,'html.parser')
     try:
         browser.implicitly_wait(30)
-        p=soup.find('div', {'class': 'bb'}).get_text()
+        p=soup.find('div', {'class': '_5rgt _5nk5'}).get_text()
         val=(p,s,"","")
         cursor.execute (sql,val)
         con.commit ()
