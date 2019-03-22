@@ -1,5 +1,1 @@
-# Facebook Scraper
-Facebook Group Scrapper
-A bot which scrapes posts from facebook public group 
-
-The best thing about this scraper is that the data is scraped in an organized format so that it can be used for educational/research purpose by researchers.It also dumps the data in a my sql database.
+A Facebook Scrapper which will scrap a Facebook group. It works on public group and will scrap the text data.It collects the data in an organized way in it collects each post with the writers name and the post link. Can be modified easily to scrap picture too. It now dumps data into oracle but can be changed into MySQL.It also does not use the Facebook graph API as it does not support collecting post now.
